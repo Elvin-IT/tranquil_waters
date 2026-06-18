@@ -1,0 +1,6 @@
+{
+  "name": "Tranquil Waters Lodge",
+  "description": "A contemporary eco-safari lodge on Lake Malawi, balancing quiet luxury and untamed wilderness with community focus.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
