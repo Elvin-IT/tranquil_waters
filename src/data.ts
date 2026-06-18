@@ -1,10 +1,15 @@
 import { Villa, Experience, Offer, JournalStory, FaqItem } from './types';
+import heroImage from './assets/images/hero_lakeside_lodge_1781766592892.jpg';
+import villaImage from './assets/images/lakefront_pool_villa_1781766608565.jpg';
+import safariImage from './assets/images/safari_nkhotakota_1781766624206.jpg';
+import dhowImage from './assets/images/lake_malawi_dhow_1781766640731.jpg';
+import diningImage from './assets/images/wellness_dining_1781766657294.jpg';
 
-export const HERO_IMAGE = "/src/assets/images/hero_lakeside_lodge_1781766592892.jpg";
-export const VILLA_IMAGE = "/src/assets/images/lakefront_pool_villa_1781766608565.jpg";
-export const SAFARI_IMAGE = "/src/assets/images/safari_nkhotakota_1781766624206.jpg";
-export const DHOW_IMAGE = "/src/assets/images/lake_malawi_dhow_1781766640731.jpg";
-export const DINING_IMAGE = "/src/assets/images/wellness_dining_1781766657294.jpg";
+export const HERO_IMAGE = heroImage;
+export const VILLA_IMAGE = villaImage;
+export const SAFARI_IMAGE = safariImage;
+export const DHOW_IMAGE = dhowImage;
+export const DINING_IMAGE = diningImage;
 
 export const VILLAS: Villa[] = [
   {
@@ -67,7 +72,7 @@ export const VILLAS: Villa[] = [
     type: 'residence',
     tagline: 'An elegant private estate for multi-generational journeys.',
     description: 'Our double-key Master Residence offers unparalleled luxury. Spanning two private wings connected by an open-concept timber library, it features an 11-meter private pool, kitchen, and dedicated micro-dining deck.',
-    longDescription: 'For families, small creative retreats, or groups of friends traveling together, the Residence is a completely self-contained lakeside sanctuary. Spanning 320 square meters of indoor and outdoor space, the home comprises two matching luxury master suites, a central lounge with curated African art, a dining pavilion, and a separate butler\'s pantry. With its high security, completely isolated beach access, and magnificent 11-meter swimming pool, this estate represents Malawian accommodation at its most refined.',
+    longDescription: "For families, small creative retreats, or groups of friends traveling together, the Residence is a completely self-contained lakeside sanctuary. Spanning 320 square meters of indoor and outdoor space, the home comprises two matching luxury master suites, a central lounge with curated African art, a dining pavilion, and a separate butler's pantry. With its high security, completely isolated beach access, and magnificent 11-meter swimming pool, this estate represents Malawian accommodation at its most refined.",
     size: '320 m² / 3,440 ft²',
     capacity: 'Up to 6 Guests',
     view: 'Absolute Private Bay & Forest Blend',
@@ -82,7 +87,7 @@ export const VILLAS: Villa[] = [
     ],
     features: [
       'Private cultural fireside storytelling circle',
-      'Complimentary custom wellness wellness package',
+      'Complimentary custom wellness package',
       'Includes private 4x4 safari vehicle in Nkhotakota Reserve',
       'Daily child-minding and wilderness crafts guides if requested'
     ],
@@ -97,7 +102,7 @@ export const EXPERIENCES: Experience[] = [
     category: 'wildlife',
     tagline: 'Walk or drive through ancient Miombo forests.',
     description: 'Just a short drive from our lakeside gates lies the beautiful, rugged Nkhotakota Wildlife Reserve. Explore a wild sanctuary on foot or on sunset game drives guided by rangers.',
-    longDescription: 'Managed by African Parks, Nkhotakota has undergone a massive historic wildlife translocation, transforming it into a flourishing elephant, buffalo, and antelope refuge. Our custom 4x4 safari vehicles provide an open-concept perspective of this wild, untamed wilderness. Alternatively, experience an intimate walking safari, where the rich smells of leaf litter, bird calls, and tracking pugmarks on sand bring the safari to life, concluding with gourmet sundowners under a baobab.',
+    longDescription: "Managed by African Parks, Nkhotakota has undergone a massive historic wildlife translocation, transforming it into a flourishing elephant, buffalo, and antelope refuge. Our custom 4x4 safari vehicles provide an open-concept perspective of this wild, untamed wilderness. Alternatively, experience an intimate walking safari, where the rich smells of leaf litter, bird calls, and tracking pugmarks on sand bring the safari to life, concluding with gourmet sundowners under a baobab.",
     highlights: [
       'Behold elephant herds returning to local rivers',
       'Uncover spectacular miombo birds with expert ornithologists',
@@ -114,7 +119,7 @@ export const EXPERIENCES: Experience[] = [
     category: 'water',
     tagline: 'Glide along crystal-clear freshwater waters.',
     description: 'Board our bespoke, locally handcrafted wooden dhow boat. Embark on snorkel-safaris, kayak local rock islets, or take an unhurried sunset cruise as the hills turn violet.',
-    longDescription: 'Lake Malawi is renowned as the \"Lake of Stars.\" Its waters are exceptionally clear, hosting hundreds of species of colorful cichlid fish found nowhere else on earth. Swim from our shores, board a kayak to paddle the serene shoreline bays, or board our private dhow \"Mvula\" for a slow sailing journey. We provide top-shelf snorkel gear, paddleboards, and a gourmet cooler box to ensure your afternoon on the water is absolute poetry.',
+    longDescription: "Lake Malawi is renowned as the \"Lake of Stars.\" Its waters are exceptionally clear, hosting hundreds of species of colorful cichlid fish found nowhere else on earth. Swim from our shores, board a kayak to paddle the serene shoreline bays, or board our private dhow \"Mvula\" for a slow sailing journey. We provide top-shelf snorkel gear, paddleboards, and a gourmet cooler box to ensure your afternoon on the water is absolute poetry.",
     highlights: [
       'Snorkel alongside sparkling endemic cichlid fish clusters',
       'Quiet guided morning kayak tours along remote coves',
@@ -131,7 +136,7 @@ export const EXPERIENCES: Experience[] = [
     category: 'wellness',
     tagline: 'Slow down and breathe to the rhythm of the waves.',
     description: 'An open-air timber platform on Lake Malawi. Experience signature treatments using indigenous oils, active meditation walks, and calming private yoga sessions.',
-    longDescription: 'Our wellness philosophy is focused on simple connection. The Sanctuary rises on timber columns with views over Lake Malawi\'s waters. There are no buzzing electrical spa machines; instead, the sounds of gentle lake ripples and birds set the tempo. Our therapists use locally cold-pressed organic marula, baobab, and wild melon oils. Daily sunrise yoga and sound therapy sessions are open to all guests, with customized nutritional programs designed around organic garden harvests.',
+    longDescription: "Our wellness philosophy is focused on simple connection. The Sanctuary rises on timber columns with views over Lake Malawi's waters. There are no buzzing electrical spa machines; instead, the sounds of gentle lake ripples and birds set the tempo. Our therapists use locally cold-pressed organic marula, baobab, and wild melon oils. Daily sunrise yoga and sound therapy sessions are open to all guests, with customized nutritional programs designed around organic garden harvests.",
     highlights: [
       'Daily sunrise and sunset meditation on the lakeside platform',
       'Marula-infused slow tissue muscle and scalp therapy',
@@ -148,7 +153,7 @@ export const EXPERIENCES: Experience[] = [
     category: 'community',
     tagline: 'A meaningful connection built on mutual respect.',
     description: 'Collaborate with local clay craftswomen and woodworkers. Visit community clinics and organic farming schools funded directly by Tranquil Waters Lodge.',
-    longDescription: 'Tranquil Waters is deeply intertwined with the local village of Nkhotakota. Rather than standard passive touring, we offer active, respectful connections. Spend a morning under clay arches learning traditional Malawian clay pot molding from the village craftswomen, or learn sustainable farming practices with our community gardens team. 10% of every villa booking goes directly to community healthcare, solar wells, and scholastic scholarships.',
+    longDescription: "Tranquil Waters is deeply intertwined with the local village of Nkhotakota. Rather than standard passive touring, we offer active, respectful connections. Spend a morning under clay arches learning traditional Malawian clay pot molding from the village craftswomen, or learn sustainable farming practices with our community gardens team. 10% of every villa booking goes directly to community healthcare, solar wells, and scholastic scholarships.",
     highlights: [
       'Hands-on clay pottery sessions with local artisan cooperatives',
       'Tours of the forest nurseries and agricultural school gardens',
@@ -206,9 +211,9 @@ export const JOURNAL_STORIES: JournalStory[] = [
     readTime: '4 min read',
     excerpt: 'Deep in the valley, local clay is mined by hand and sculpted into contemporary pieces. Discover the artisans who shape our lodge tableware.',
     content: [
-      'When compiling the design details of Tranquil Waters Lodge, we knew we had to source materials that spoke directly to the ground beneath us. In Nkhotakota, pottery isn’t merely a hobby; it is a complex language of ancestry, lineage, and survival.',
-      'We collaborated with the Chitsime Women\'s pottery cooperative to shape over two thousand custom items. From the rustic, earth-hued coffee tumblers in your villa cabinet to the heavy basalt-textured plates at the dinner table, each piece is born from clay harvested near local riverbeds and fired in open wood kilns.',
-      'We invite our guests to participate. Slipping your hands into wet clay and centering a block on a foot-pedal wheel connects you to the earth under the African sun in a way that words rarely can.'
+      "When compiling the design details of Tranquil Waters Lodge, we knew we had to source materials that spoke directly to the ground beneath us. In Nkhotakota, pottery isn’t merely a hobby; it is a complex language of ancestry, lineage, and survival.",
+      "We collaborated with the Chitsime Women's pottery cooperative to shape over two thousand custom items. From the rustic, earth-hued coffee tumblers in your villa cabinet to the heavy basalt-textured plates at the dinner table, each piece is born from clay harvested near local riverbeds and fired in open wood kilns.",
+      "We invite our guests to participate. Slipping your hands into wet clay and centering a block on a foot-pedal wheel connects you to the earth under the African sun in a way that words rarely can."
     ],
     image: VILLA_IMAGE
   },
@@ -221,9 +226,9 @@ export const JOURNAL_STORIES: JournalStory[] = [
     readTime: '6 min read',
     excerpt: 'An inside look at our active preservation efforts safeguarding Nkhotakota’s dense forest, protecting endangered corridors.',
     content: [
-      'The Miombo woodland is the green lung of Central Africa. Dominated by trees of Brachystegia, this ecosystem is a sanctuary for elephants, baboons, leopards, and over 280 bird species. However, high demands for local firewood often threaten these forests.',
-      'At Tranquil Waters Lodge, our presence is built entirely on ecological preservation. Powered by a high-capacity solar tracking grid, we emit zero carbon during lodge operations. Furthermore, we pay a forest easement fee of $25 per night per bed directly to local communities to guarantee the canopy is not cleared for charcoal burn houses.',
-      'We also support community reforestation programs. Guests can co-plant indigenous Mahogany seedlings in our buffer forestry reserves, placing down physical roots that will outlive us for generations.'
+      "The Miombo woodland is the green lung of Central Africa. Dominated by trees of Brachystegia, this ecosystem is a sanctuary for elephants, baboons, leopards, and over 280 bird species. However, high demands for local firewood often threaten these forests.",
+      "At Tranquil Waters Lodge, our presence is built entirely on ecological preservation. Powered by a high-capacity solar tracking grid, we emit zero carbon during lodge operations. Furthermore, we pay a forest easement fee of $25 per night per bed directly to local communities to guarantee the canopy is not cleared for charcoal burn houses.",
+      "We also support community reforestation programs. Guests can co-plant indigenous Mahogany seedlings in our buffer forestry reserves, placing down physical roots that will outlive us for generations."
     ],
     image: SAFARI_IMAGE
   },
@@ -236,9 +241,9 @@ export const JOURNAL_STORIES: JournalStory[] = [
     readTime: '5 min read',
     excerpt: 'With over 800 endemic fish species, Lake Malawi is a living evolutionary marvel. Learn how we snorkel with these sparkling populations.',
     content: [
-      'To slide into Lake Malawi with a diving mask is to enter a tropical aquarium of spectacular proportions. Unlike ocean waters, there is no salt sting, and the visibility is crystal-clear, revealing a landscape of giant rounded granite boulders.',
-      'The star residents are the Cichlids. These tiny, hyper-colorful fish are famous among evolutionary scientists worldwide. Lake Malawi holds more species of fish than the lakes of North America and Europe combined, showing spectacular colors of electric sapphire, neon tangerine, and iridescent purple.',
-      'Tranquil Waters Lodge supports marine protection zones around our islet systems. By encouraging sustainable fishing zones and teaching snorkeling to local youth, we ensure this incredible natural wonderland remains pristine for lifetimes to come.'
+      "To slide into Lake Malawi with a diving mask is to enter a tropical aquarium of spectacular proportions. Unlike ocean waters, there is no salt sting, and the visibility is crystal-clear, revealing a landscape of giant rounded granite boulders.",
+      "The star residents are the Cichlids. These tiny, hyper-colorful fish are famous among evolutionary scientists worldwide. Lake Malawi holds more species of fish than the lakes of North America and Europe combined, showing spectacular colors of electric sapphire, neon tangerine, and iridescent purple.",
+      "Tranquil Waters Lodge supports marine protection zones around our islet systems. By encouraging sustainable fishing zones and teaching snorkeling to local youth, we ensure this incredible natural wonderland remains pristine for lifetimes to come."
     ],
     image: DHOW_IMAGE
   }
